@@ -1,0 +1,28 @@
+# design
+gaps inner 8px
+gaps outer 9px
+
+default_border pixel 1px
+default_floating_border pixel 1px
+
+exec nm-applet
+exec swaync
+exec /usr/bin/gnome-keyring-daemon --start --components=secrets
+
+bindsym --to-code $mod+e exec $file_explorer
+bindsym --to-code $mod+Shift+n exec swaync-client -t -sw
+# Screenshot a window
+bindsym --to-code $mod+Print exec sway-screenshot -m window
+# Screenshot a monitor
+bindsym --to-code Print exec sway-screenshot -m output
+# Screenshot a region
+bindsym --to-code $mod+Shift+Print exec sway-screenshot -m region
+
+bindgesture swipe:right workspace prev
+bindgesture swipe:left workspace next
+
+client.focused #d46218 #141216 #ec9628 #ec9628 #ec9628
+#client.focused_inactive
+#client.unfocused
+#client.urgent
+#client.placeholder 

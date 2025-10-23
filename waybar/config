@@ -1,0 +1,32 @@
+{
+    "layer": "bot",
+    "spacing": 0,
+    "height": 0,
+    "margin": 8,
+    "position": "top",
+
+    "modules-left": ["sway/workspaces"],
+    "modules-center": [""],
+    "modules-right": ["custom/weather", "battery","pulseaudio", "bluetooth" , "tray", "sway/language", "clock"],
+
+    "custom/weather": {
+        "format": "{}",
+        "exec": "curl https://wttr.in/St+Petersburg+Russia?format=%t+%c",
+        "interval": 6000
+    },
+
+    "sway/workspaces": {
+        "all-outputs": false,
+        "tooltip": false
+    },
+
+    "sway/language":
+    {
+        "format": "{}",
+        "tooltip": true
+    },
+
+    "tray": {
+        "spacing": 5
+    }
+}
