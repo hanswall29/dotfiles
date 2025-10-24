@@ -21,7 +21,7 @@ bindsym --to-code $mod+Shift+Print exec sway-screenshot -m region
 bindgesture swipe:right workspace prev
 bindgesture swipe:left workspace next
 
-client.focused #d46218 #141216 #ec9628 #ec9628 #ec9628
+client.focused #242226 #242226 #242226 #242226 #242226
 #client.focused_inactive
 #client.unfocused
 #client.urgent

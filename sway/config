@@ -23,7 +23,7 @@ set $file_explorer nautilus
 ### Output configuration
 #
 # Default wallpaper (more resolutions are available in /usr/share/backgrounds/sway/)
-output * bg /home/hans/.config/sway/wallpapers/106557900_p0.jpg fill
+output * bg /home/hans/.config/sway/wallpapers/transcend.jpg fill
 #
 # Example configuration:
 #
