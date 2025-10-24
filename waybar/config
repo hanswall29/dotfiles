@@ -7,13 +7,7 @@
 
     "modules-left": ["sway/workspaces"],
     "modules-center": [""],
-    "modules-right": ["custom/weather", "battery","pulseaudio", "bluetooth" , "tray", "sway/language", "clock"],
-
-    "custom/weather": {
-        "format": "{}",
-        "exec": "curl https://wttr.in/St+Petersburg+Russia?format=%t+%c",
-        "interval": 6000
-    },
+    "modules-right": ["battery","pulseaudio" , "tray", "sway/language", "clock"],
 
     "sway/workspaces": {
         "all-outputs": false,
