@@ -1,3 +1,5 @@
+This rice is currently WIP
+
 **List of programs for this rice:**
 - sway
 - waybar
