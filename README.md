@@ -1,1 +1,11 @@
-I USE ARCH BTW
+**List of programs for this rice:**
+- sway
+- waybar
+- wofi
+- kitty
+- nautilus
+- swaync
+- hyfetch
+- nm-applet
+- sway-screenshot
+- gnome-keyring
