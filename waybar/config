@@ -2,8 +2,8 @@
     "layer": "bot",
     "spacing": 0,
     "height": 0,
-    "margin": 8,
-    "position": "top",
+    "margin": 5,
+    "position": "bottom",
 
     "modules-left": ["sway/workspaces"],
     "modules-center": [""],
