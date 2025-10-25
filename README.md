@@ -5,6 +5,7 @@ This rice is currently WIP
 - waybar
 - wofi
 - kitty
+- loupe
 - nautilus
 - swaync
 - hyfetch
