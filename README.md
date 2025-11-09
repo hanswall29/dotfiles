@@ -1,4 +1,5 @@
 This rice is currently WIP
+Simple sway rice that i'm currently making
 
 **List of programs for this rice:**
 - sway
