@@ -89,6 +89,20 @@ window#waybar.hidden {
     margin-right: 4px;
 }
 
+#bluetooth {
+    background-color: #da7060;
+    color: black;
+    border-radius: 20px;
+    margin-right: 4px;
+}
+
+#network {
+    background-color: #da7060;
+    color: black;
+    border-radius: 20px;
+    margin-right: 4px;
+}
+
 #window,
 #workspaces {
     margin: 0px 4px;

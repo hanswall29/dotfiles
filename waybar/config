@@ -7,15 +7,20 @@
 
     "modules-left": ["sway/workspaces"],
     "modules-center": [""],
-    "modules-right": ["battery","pulseaudio" , "tray", "sway/language", "clock"],
+    "modules-right": ["battery","pulseaudio" , "network",  "bluetooth" , "tray", "sway/language", "clock"],
 
     "sway/workspaces": {
         "all-outputs": false,
         "tooltip": false
     },
 
-    "sway/language":
-    {
+    "network": {
+    "format-disconnected": "No Network",
+    "interval": 5,
+    "tooltip": false
+    },
+
+    "sway/language": {
         "format": "{}",
         "tooltip": true
     },

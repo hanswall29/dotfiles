@@ -5,7 +5,7 @@ gaps outer 9px
 default_border pixel 1px
 default_floating_border pixel 1px
 
-exec nm-applet
+exec grep nm-applet >/dev/null 2>&1 && killall nm-applet || nm-applet --indicator
 exec swaync
 exec /usr/bin/gnome-keyring-daemon --start --components=secrets
 
@@ -25,4 +25,4 @@ client.focused #242226 #242226 #242226 #242226 #242226
 #client.focused_inactive
 #client.unfocused
 #client.urgent
-#client.placeholder 
+#client.placeholder

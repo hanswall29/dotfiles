@@ -4,11 +4,11 @@
 }
   
 #window {
-    background: rgba(236, 150, 21, 0.3);
+    background: rgba(105, 102, 98, 0.8);
     margin: auto;
     padding: 10px;
     border-radius: 20px;
-    border: 3px solid #eeb44c;
+    border: 3px solid #f8aa1a;
 }
 
 #input {
