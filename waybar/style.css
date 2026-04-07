@@ -7,12 +7,11 @@
     min-height: 0;
 }
 
-
-window#waybar {
-    background-color: transparent;
-    color: black;
-    transition-property: background-color;
-    transition-duration: .5s;
+#waybar {
+    background: rgba(28, 28, 30, 0.92);
+    border-radius: 7px;
+    color: #f2f2f7;
+    padding: 4px 10px;
 }
 
 window#waybar.hidden {
@@ -21,33 +20,17 @@ window#waybar.hidden {
 
 
 #workspaces button {
-    background: #da7060;
-    color: black;
-    border-radius: 15px;
+    background: transparent;
+    color: white;
+    border-radius: 8px;
     transition-duration: 100ms;
-    min-width: 30px;
+    min-width: 20px;
     margin-right: 1px;
     margin-left: 1px;
 }
 
-/* https://github.com/Alexays/Waybar/wiki/FAQ#the-workspace-buttons-have-a-strange-hover-effect */
-#workspaces button:hover {
-    background: lightblue;
-    color: black;
-    border-bottom: 3px solid black;
-    box-shadow: inherit;
-    text-shadow: inherit;
-}
-
 #workspaces button.focused {
-    background: #5e4a47;
-}
-
-#workspaces button.focused:hover {
-    background: lightblue;
-    color: black;
-    border-bottom: 3px solid black;
-
+    background: black;
 }
 
 #workspaces button.urgent {
@@ -79,30 +62,30 @@ window#waybar.hidden {
 #mode,
 #idle_inhibitor,
 #mpd {
-    padding: 0 10px;
-    color: black;
+    padding: 0 8px;
+    color: white;
 }
 
 #pulseaudio {
-    background-color: #da7060;
-    color: black;
+    background: transparent;
+    color: white;
     border-radius: 20px;
-    margin-right: 4px;
+    margin-right: 2px;
 }
 
 #bluetooth {
-    background-color: #da7060;
-    color: black;
+    background: transparent;
+    color: white;
     border-radius: 20px;
-    margin-right: 4px;
-    min-width: 30px;
+    margin-right: 2px;
+    min-width: 20px;
 }
 
 #network {
-    background-color: #da7060;
-    color: black;
+    background: transparent;
+    color: white;
     border-radius: 20px;
-    margin-right: 4px;
+    margin-right: 2px;
 }
 
 #window,
@@ -111,31 +94,31 @@ window#waybar.hidden {
 }
 
 #battery {
-    background-color: #da7060;
-    color: black;
+    background: transparent;
+    color: white;
     border-radius: 20px;
-    margin-right: 4px;
+    margin-right: 2px;
 }
 
 #clock {
-    background-color: #da7060;
-    color: black;
+    background: transparent;
+    color: white;
     border-radius: 20px;
-    margin-right: 4px;
+    margin-right: 2px;
 
 }
 
 #tray {
-    background-color: #da7060;
+    background: transparent;
     border-radius: 20px;
-    color: black;
-    margin-right: 4px;
+    color: white;
+    margin-right: 2px;
 }
 
 #language {
-    background-color: #da7060;
-    color: black;
-    min-width: 30px;
+    background: transparent;
+    color: white;
+    min-width: 20px;
     border-radius: 20px;
-    margin-right: 4px;
+    margin-right: 2px;
 }
