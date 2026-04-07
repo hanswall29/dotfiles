@@ -1,5 +1,5 @@
 This rice is currently WIP
-Simple sway rice that i'm currently making. Transcend themed
+Simple sway rice that i'm currently making (also doing global overhaul in overhaul branch)
 
 **List of programs for this rice:**
 - sway
