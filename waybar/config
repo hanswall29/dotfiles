@@ -6,7 +6,7 @@
     "position": "bottom",
 
     "modules-left": ["sway/workspaces"],
-    "modules-center": [""],
+    "modules-center": ["sway/window"],
     "modules-right": ["battery","pulseaudio" , "network",  "bluetooth" , "tray", "sway/language", "clock"],
 
     "sway/workspaces": {
@@ -14,10 +14,24 @@
         "tooltip": false
     },
 
+    "battery": {
+        "interval": 5,
+        "format": "{icon} {capacity}",
+        "format-icons": ["", "", "", "", ""]
+    },
+
     "network": {
-    "format-disconnected": "No Network",
-    "interval": 5,
-    "tooltip": false
+        "format-disconnected": "󰅛",
+        "format": "",
+        "interval": 5,
+        "tooltip": false
+    },
+
+    "bluetooth": {
+        "interval": 5,
+        "format": "󰂯",
+        "format-disconnected":"󰂲",
+        "tooltip": false
     },
 
     "sway/language": {

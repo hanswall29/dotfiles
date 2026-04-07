@@ -7,6 +7,7 @@
     min-height: 0;
 }
 
+
 window#waybar {
     background-color: transparent;
     color: black;
@@ -94,6 +95,7 @@ window#waybar.hidden {
     color: black;
     border-radius: 20px;
     margin-right: 4px;
+    min-width: 30px;
 }
 
 #network {
